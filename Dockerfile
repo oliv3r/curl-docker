@@ -5,7 +5,7 @@
 
 # For Alpine, latest is actually the latest stable
 # hadolint ignore=DL3007
-FROM registry.hub.docker.com/library/alpine:latest AS builder
+FROM registry.hub.docker.com/arm32v6/alpine:latest AS builder
 
 LABEL Maintainer="Olliver Schinagl <oliver@schinagl.nl>"
 
